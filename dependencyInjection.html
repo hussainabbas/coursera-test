@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app = "DIApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Dependency Injection</title>
+    <script src="angular.min.js"></script>
+    <script src="dependencyInjection.js"></script>
+
+
+  </head>
+  <body>
+      <h1>Dependency Injection in JavaScript (and AngularJs)</h1>
+      <div ng-controller = "DIController">
+        <input type="text" ng-model = "name" ng-blur = "upper();"> <!--ng-blur is use to change the text transform-->
+
+      </div>
+  </body>
+</html>
